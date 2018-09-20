@@ -72,7 +72,6 @@
     ],
     "class-name": true,
     "no-empty": true,
-    "prefer-const": true,
     "curly": true,
     "indent": [true, "spaces", 2],
     "max-line-length": [true, 100],
@@ -84,7 +83,6 @@
     "no-string-literal": false,
     "no-string-throw": true,
     "no-unused-expression": true,
-    "no-var-keyword": true,
     "object-literal-sort-keys": false,
     "radix": true,
     "semicolon": [true, "always"],
@@ -108,5 +106,8 @@
     "forin": true,
     "label-position": true,
     "member-access": true,
+
+    "no-var-keyword": true,
+    "prefer-const": true,
   }
 }
