@@ -107,7 +107,12 @@
     "label-position": true,
     "member-access": true,
 
+    "object-literal-key-quotes": {
+      "options": ["consistent-as-needed"]
+    },
+
     "no-var-keyword": true,
+    "object-literal-shorthand": true,
     "prefer-const": true,
   }
 }
