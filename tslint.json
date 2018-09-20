@@ -81,8 +81,6 @@
     "no-string-throw": true,
     "no-unused-expression": true,
     "object-literal-sort-keys": false,
-    "radix": true,
-    "semicolon": [true, "always"],
     "trailing-comma": true,
     "variable-name": false,
     "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
@@ -107,11 +105,13 @@
     "cyclomatic-complexity": false,
     "forin": true,
     "no-eval": true,
+    "radix": true,
     "switch-default": true,
     "triple-equals": [true, "allow-null-check"],
 
     "object-literal-key-quotes": [true, "consistent-as-needed"],
     "quotemark": [true, "single", "avoid-escape"],
+    "semicolon": [true, "always"],
 
     "no-var-keyword": true,
     "object-literal-shorthand": true,
