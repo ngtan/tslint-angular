@@ -17,7 +17,6 @@
     "no-construct": true,
     "no-empty-interface": true,
     "no-unnecessary-initializer": true,
-    "quotemark": [true, "single"],
     "typedef-whitespace": [
       true,
       {
@@ -51,7 +50,6 @@
       "timeEnd",
       "trace"
     ],
-    "no-eval": true,
     "no-misused-new": true,
     "no-switch-case-fall-through": true,
     "whitespace": [
@@ -107,9 +105,10 @@
     "label-position": true,
     "member-access": true,
 
-    "object-literal-key-quotes": {
-      "options": ["consistent-as-needed"]
-    },
+    "no-eval": true,
+
+    "object-literal-key-quotes": [true, "consistent-as-needed"],
+    "quotemark": [true, "single", "avoid-escape"],
 
     "no-var-keyword": true,
     "object-literal-shorthand": true,

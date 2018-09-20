@@ -7,6 +7,8 @@
 ## Table of contents
   1. [References](#references)
   1. [Objects](#objects)
+  1. [Strings](#strings)
+  1. [Best Practices](#best-practices)
   1. [Stylistic](#stylistic)
   1. [ECMAScript 6](#ecmascript-6)
 
@@ -29,15 +31,33 @@
 
   2. Enforces consistent object literal property quote style
       ```
-      "object-literal-key-quotes": {
-        "options": ["consistent-as-needed"]
-      },
+      "object-literal-key-quotes": [true, "consistent-as-needed"]
       ```
 
+## Strings
+  1. Use single quotes for string literals.
+      ```
+      "quotemark": [true, "single", "avoid-escape"]
+      ```
+  2. Never use `eval` on string because `eval` is dangerous as it allows arbitrary code execution with full privileges.
+      ```
+      "no-eval": true
+      ```
+
+## Best Practices
+These rules relate to better ways of doing things to help you avoid problems
+
+| Recommended | Rule | Description |
+| :---:       | :--- | :---        |
+|✓|[no-eval](https://palantir.github.io/tslint/rules/no-eval/)|Disallows eval function invocations.|
+
 ## Stylistic
+These rules relate to style guidelines, and are therefore quite subjective
+
 | Recommended | Rule | Description |
 | :---:       | :--- | :---        |
 |✓|[object-literal-key-quotes](https://palantir.github.io/tslint/rules/object-literal-key-quotes/)|Enforces consistent object literal property quote style.|
+|✓|[quotemark](https://palantir.github.io/tslint/rules/quotemark/)|Requires single or double quotes for string literals.|
 
 ## ECMAScript 6
 These rules relate to ES6, also known as ES2015
