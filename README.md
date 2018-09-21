@@ -47,6 +47,7 @@
 
 ## Possible Errors
 These rules relate to possible syntax or logic errors in JavaScript code
+
 | Recommended | Rule | Description |
 | :---:       | :--- | :---        |
 |✓|[no-conditional-assignment](https://palantir.github.io/tslint/rules/no-conditional-assignment/)|Disallows any type of assignment in conditionals.|
