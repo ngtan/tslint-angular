@@ -14,7 +14,6 @@
         ]
       }
     ],
-    "no-construct": true,
     "no-empty-interface": true,
     "no-unnecessary-initializer": true,
     "typedef-whitespace": [
@@ -101,11 +100,11 @@
     "forin": true,
     "label-position": true,
     "no-arg": true,
+    "no-construct": true,
     "no-empty": true,
     "no-eval": true,
     "no-invalid-this": false,
     "no-magic-numbers": true,
-    "no-multi-spaces": true,
     "no-switch-case-fall-through": true,
     "no-unused-expression": true,
     "radix": true,
