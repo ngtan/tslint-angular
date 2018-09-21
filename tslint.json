@@ -40,15 +40,6 @@
     "directive-class-suffix": [true, "Directive"],
     "eofline": true,
     "import-spacing": true,
-    "no-console": [
-      true,
-      "log",
-      "debug",
-      "info",
-      "time",
-      "timeEnd",
-      "trace"
-    ],
     "no-misused-new": true,
     "whitespace": [
       true,
@@ -74,7 +65,6 @@
     "no-non-null-assertion": true,
     "no-string-literal": false,
     "object-literal-sort-keys": false,
-    "trailing-comma": true,
     "variable-name": false,
     "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
     "no-output-on-prefix": true,
@@ -84,13 +74,23 @@
     "comment-format": [true, "check-space"],
     "import-blacklist": [true, "rxjs/Rx"],
     "interface-over-type-literal": true,
-    "no-debugger": true,
     "no-duplicate-super": true,
     "no-shadowed-variable": true,
     "no-use-before-declare": true,
     "unified-signatures": true,
     "callable-types": true,
     "member-access": true,
+
+    "no-conditional-assignment": true,
+    "no-console": true,
+    "no-debugger": true,
+    "use-isnan": true,
+    "no-unsafe-finally": true,
+    "trailing-comma": [true, {
+      "esSpecCompliant": true,
+      "multiline": "always",
+      "singleline": "never",
+    }],
 
     "ban": [true, ["alert", "confirm", "prompt"]],
     "binary-expression-operand-order": true,

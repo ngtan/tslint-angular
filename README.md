@@ -8,6 +8,7 @@
   1. [References](#references)
   1. [Objects](#objects)
   1. [Strings](#strings)
+  1. [Possible Errors](#possible-errors)
   1. [Best Practices](#best-practices)
   1. [Stylistic](#stylistic)
   1. [ECMAScript 6](#ecmascript-6)
@@ -43,6 +44,17 @@
       ```
       "no-eval": true
       ```
+
+## Possible Errors
+These rules relate to possible syntax or logic errors in JavaScript code
+| Recommended | Rule | Description |
+| :---:       | :--- | :---        |
+|✓|[no-conditional-assignment](https://palantir.github.io/tslint/rules/no-conditional-assignment/)|Disallows any type of assignment in conditionals.|
+|✓|[no-console](https://palantir.github.io/tslint/rules/no-console/)|Bans the use of specified console methods.|
+|✓|[no-debugger](https://palantir.github.io/tslint/rules/no-debugger/)|Disallows `debugger` statements.|
+|✓|[use-isnan](https://palantir.github.io/tslint/rules/use-isnan/)|Enforces use of the `isNaN()` function to check for `NaN` references instead of a comparison to the `NaN` constant.|
+|✓|[no-unsafe-finally](https://palantir.github.io/tslint/rules/no-unsafe-finally/)|Disallows control flow statements, such as `return`, `continue`, `break` and `throws` in finally blocks.|
+|✓|[trailing-comma](https://palantir.github.io/tslint/rules/trailing-comma/)|Requires or disallows trailing commas in array and object literals, destructuring assignments, function typings, named imports and exports and function parameters.|
 
 ## Best Practices
 These rules relate to better ways of doing things to help you avoid problems
