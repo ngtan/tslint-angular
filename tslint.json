@@ -75,8 +75,6 @@
     "import-blacklist": [true, "rxjs/Rx"],
     "interface-over-type-literal": true,
     "no-duplicate-super": true,
-    "no-shadowed-variable": true,
-    "no-use-before-declare": true,
     "unified-signatures": true,
     "callable-types": true,
     "member-access": true,
@@ -111,6 +109,10 @@
     "radix": true,
     "switch-default": true,
     "triple-equals": [true, "allow-null-check"],
+
+    "no-shadowed-variable": true,
+    "no-unused-variable": true,
+    "no-use-before-declare": true,
 
     "object-literal-key-quotes": [true, "consistent-as-needed"],
     "quotemark": [true, "single", "avoid-escape"],

@@ -1,8 +1,8 @@
 # tslint-angular
 
 ## Requirements
-  - [tslint](https://github.com/palantir/tslint)
-  - [codelyzer](https://github.com/mgechev/codelyzer)
+  1. [tslint](https://github.com/palantir/tslint)
+  1. [codelyzer](https://github.com/mgechev/codelyzer)
 
 ## Table of contents
   1. [References](#references)
@@ -10,6 +10,7 @@
   1. [Strings](#strings)
   1. [Possible Errors](#possible-errors)
   1. [Best Practices](#best-practices)
+  1. [Variables](#variables)
   1. [Stylistic](#stylistic)
   1. [ECMAScript 6](#ecmascript-6)
 
@@ -81,6 +82,15 @@ These rules relate to better ways of doing things to help you avoid problems
 |✓|[radix](https://palantir.github.io/tslint/rules/radix/)|Requires the radix parameter to be specified when calling `parseInt`|
 ||[switch-default](https://palantir.github.io/tslint/rules/switch-default/)|Require a `default` case in all `switch` statements.|
 |✓|[triple-equals](https://palantir.github.io/tslint/rules/triple-equals/)|Requires `===` and `!==` in place of `==` and `!=`.|
+
+## Variables
+These rules relate to variable declarations
+
+| Recommended | Rule | Description |
+| :---:       | :--- | :---        |
+|✓|[no-shadowed-variable](https://palantir.github.io/tslint/rules/no-shadowed-variable/)|Disallows shadowing variable declarations.|
+||[no-unused-variable](https://palantir.github.io/tslint/rules/no-unused-variable/)|Disallows unused imports, variables, functions and private class members.|
+|✓|[no-use-before-declare](https://palantir.github.io/tslint/rules/no-use-before-declare/)|Disallows usage of variables before their declaration.|
 
 ## Stylistic
 These rules relate to style guidelines, and are therefore quite subjective
