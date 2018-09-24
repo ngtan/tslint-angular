@@ -38,7 +38,6 @@
     "use-pipe-transform-interface": true,
     "component-class-suffix": [true, "Component"],
     "directive-class-suffix": [true, "Directive"],
-    "eofline": true,
     "import-spacing": true,
     "no-misused-new": true,
     "whitespace": [
@@ -49,7 +48,6 @@
       "check-separator",
       "check-type"
     ],
-    "no-trailing-whitespace": true,
     "one-line": [
       true,
       "check-open-brace",
@@ -59,8 +57,6 @@
     ],
     "class-name": true,
     "indent": [true, "spaces", 2],
-    "max-line-length": [true, 100],
-    "no-bitwise": true,
     "no-inferrable-types": [true, "ignore-params"],
     "no-non-null-assertion": true,
     "no-string-literal": false,
@@ -114,12 +110,22 @@
     "no-unused-variable": true,
     "no-use-before-declare": true,
 
+    "eofline": true,
+    "linebreak-style": [true, "LF"],
+    "max-file-line-count": [false, 300],
+    "max-line-length": [true, 100],
+    "new-parens": true,
+    "no-bitwise": true,
+    "no-consecutive-blank-lines": [true, 2],
+    "no-trailing-whitespace": true,
     "object-literal-key-quotes": [true, "consistent-as-needed"],
+    "one-variable-per-declaration": [true, "ignore-for-loop"],
     "quotemark": [true, "single", "avoid-escape"],
     "semicolon": [true, "always"],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
 
     "no-var-keyword": true,
     "object-literal-shorthand": true,
-    "prefer-const": true,
+    "prefer-const": true
   }
 }

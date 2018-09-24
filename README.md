@@ -97,9 +97,19 @@ These rules relate to style guidelines, and are therefore quite subjective
 
 | Recommended | Rule | Description |
 | :---:       | :--- | :---        |
+|✓|[eofline](https://palantir.github.io/tslint/rules/eofline/)|Ensures the file ends with a newline.|
+|✓|[linebreak-style](https://palantir.github.io/tslint/rules/linebreak-style/)|Enforces a consistent linebreak style.|
+|✓|[max-file-line-count](https://palantir.github.io/tslint/rules/max-file-line-count/)|Requires files to remain under a certain number of lines.|
+|✓|[max-line-length](https://palantir.github.io/tslint/rules/max-line-length/)|Requires lines to be under a certain max length.|
+|✓|[new-parens](https://palantir.github.io/tslint/rules/new-parens/)|Requires parentheses when invoking a constructor via the `new` keyword.|
+|✓|[no-bitwise](https://palantir.github.io/tslint/rules/no-bitwise/)|Disallows bitwise operators.|
+|✓|[no-consecutive-blank-lines](https://palantir.github.io/tslint/rules/no-consecutive-blank-lines/)|Disallows one or more blank lines in a row.|
+|✓|[no-trailing-whitespace](https://palantir.github.io/tslint/rules/no-trailing-whitespace/)|Disallows trailing whitespace at the end of a line.|
 |✓|[object-literal-key-quotes](https://palantir.github.io/tslint/rules/object-literal-key-quotes/)|Enforces consistent object literal property quote style.|
+|✓|[one-variable-per-declaration](https://palantir.github.io/tslint/rules/one-variable-per-declaration/)|Disallows multiple variable definitions in the same declaration statement.|
 |✓|[quotemark](https://palantir.github.io/tslint/rules/quotemark/)|Requires single or double quotes for string literals.|
 |✓|[semicolon](https://palantir.github.io/tslint/rules/semicolon/)|Enforces consistent semicolon usage at the end of every statement.|
+|✓|[variable-name](https://palantir.github.io/tslint/rules/variable-name/)|Checks variable names for various errors.|
 
 ## ECMAScript 6
 These rules relate to ES6, also known as ES2015
