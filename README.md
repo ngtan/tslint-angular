@@ -97,6 +97,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 
 | Recommended | Rule | Description |
 | :---:       | :--- | :---        |
+|✓|[class-name](https://palantir.github.io/tslint/rules/class-name/)|Enforces PascalCased class and interface names.|
 |✓|[eofline](https://palantir.github.io/tslint/rules/eofline/)|Ensures the file ends with a newline.|
 |✓|[indent](https://palantir.github.io/tslint/rules/indent/)|Enforces indentation with tabs or spaces.|
 |✓|[linebreak-style](https://palantir.github.io/tslint/rules/linebreak-style/)|Enforces a consistent linebreak style.|
@@ -108,6 +109,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[no-trailing-whitespace](https://palantir.github.io/tslint/rules/no-trailing-whitespace/)|Disallows trailing whitespace at the end of a line.|
 |✓|[object-literal-key-quotes](https://palantir.github.io/tslint/rules/object-literal-key-quotes/)|Enforces consistent object literal property quote style.|
 |✓|[one-line](https://palantir.github.io/tslint/rules/one-line/)|Requires the specified tokens to be on the same line as the expression preceding them.|
+|✓|[no-misused-new](https://palantir.github.io/tslint/rules/no-misused-new/)|Warns on apparent attempts to define constructors for interfaces or `new` for classes.|
 |✓|[one-variable-per-declaration](https://palantir.github.io/tslint/rules/one-variable-per-declaration/)|Disallows multiple variable definitions in the same declaration statement.|
 |✓|[quotemark](https://palantir.github.io/tslint/rules/quotemark/)|Requires single or double quotes for string literals.|
 |✓|[semicolon](https://palantir.github.io/tslint/rules/semicolon/)|Enforces consistent semicolon usage at the end of every statement.|

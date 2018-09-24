@@ -39,7 +39,6 @@
     "component-class-suffix": [true, "Component"],
     "directive-class-suffix": [true, "Directive"],
     "import-spacing": true,
-    "no-misused-new": true,
     "whitespace": [
       true,
       "check-branch",
@@ -48,7 +47,6 @@
       "check-separator",
       "check-type"
     ],
-    "class-name": true,
     "no-inferrable-types": [true, "ignore-params"],
     "no-non-null-assertion": true,
     "no-string-literal": false,
@@ -99,6 +97,7 @@
     "no-unused-variable": true,
     "no-use-before-declare": true,
 
+    "class-name": true,
     "eofline": true,
     "indent": [true, "spaces", 2],
     "linebreak-style": [true, "LF"],
@@ -115,6 +114,7 @@
       "check-else",
       "check-whitespace"
     ],
+    "no-misused-new": true,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "quotemark": [true, "single", "avoid-escape"],
     "semicolon": [true, "always"],
