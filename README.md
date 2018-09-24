@@ -98,6 +98,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 | Recommended | Rule | Description |
 | :---:       | :--- | :---        |
 |✓|[eofline](https://palantir.github.io/tslint/rules/eofline/)|Ensures the file ends with a newline.|
+|✓|[indent](https://palantir.github.io/tslint/rules/indent/)|Enforces indentation with tabs or spaces.|
 |✓|[linebreak-style](https://palantir.github.io/tslint/rules/linebreak-style/)|Enforces a consistent linebreak style.|
 |✓|[max-file-line-count](https://palantir.github.io/tslint/rules/max-file-line-count/)|Requires files to remain under a certain number of lines.|
 |✓|[max-line-length](https://palantir.github.io/tslint/rules/max-line-length/)|Requires lines to be under a certain max length.|
@@ -109,6 +110,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[one-variable-per-declaration](https://palantir.github.io/tslint/rules/one-variable-per-declaration/)|Disallows multiple variable definitions in the same declaration statement.|
 |✓|[quotemark](https://palantir.github.io/tslint/rules/quotemark/)|Requires single or double quotes for string literals.|
 |✓|[semicolon](https://palantir.github.io/tslint/rules/semicolon/)|Enforces consistent semicolon usage at the end of every statement.|
+|✓|[space-before-function-paren](https://palantir.github.io/tslint/rules/space-before-function-paren/)|Require or disallow a space before function parenthesis.|
 |✓|[variable-name](https://palantir.github.io/tslint/rules/variable-name/)|Checks variable names for various errors.|
 
 ## ECMAScript 6
@@ -116,6 +118,8 @@ These rules relate to ES6, also known as ES2015
 
 | Recommended | Rule | Description |
 | :---:       | :--- | :---        |
+|✓|[arrow-return-shorthand](https://palantir.github.io/tslint/rules/arrow-return-shorthand/)|Suggests to convert `() => { return x; }` to `() => x`.|
+|✓|[no-duplicate-super](https://palantir.github.io/tslint/rules/no-duplicate-super/)|Warns if `super()` appears twice in a constructor.|
 |✓|[no-var-keyword](https://palantir.github.io/tslint/rules/no-var-keyword/)|Disallows usage of the `var` keyword. Use `let` or `const` instead.|
 |✓|[object-literal-shorthand](https://palantir.github.io/tslint/rules/object-literal-shorthand)|Enforces/disallows use of ES6 object literal shorthand.|
 |✓|[prefer-const](https://palantir.github.io/tslint/rules/prefer-const/)|Requires that variable declarations use `const` instead of `let` and `var` if possible. If a variable is only assigned to once when it is declared, it should be declared using `const`.|

@@ -56,21 +56,17 @@
       "check-whitespace"
     ],
     "class-name": true,
-    "indent": [true, "spaces", 2],
     "no-inferrable-types": [true, "ignore-params"],
     "no-non-null-assertion": true,
     "no-string-literal": false,
     "object-literal-sort-keys": false,
-    "variable-name": false,
     "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
     "no-output-on-prefix": true,
     "directive-selector": [true, ["attribute"], [], "camelCase"],
     "component-selector": [true, ["element"], [], "kebab-case"],
-    "arrow-return-shorthand": true,
     "comment-format": [true, "check-space"],
     "import-blacklist": [true, "rxjs/Rx"],
     "interface-over-type-literal": true,
-    "no-duplicate-super": true,
     "unified-signatures": true,
     "callable-types": true,
     "member-access": true,
@@ -83,7 +79,7 @@
     "trailing-comma": [true, {
       "esSpecCompliant": true,
       "multiline": "always",
-      "singleline": "never",
+      "singleline": "never"
     }],
 
     "ban": [true, ["alert", "confirm", "prompt"]],
@@ -111,6 +107,7 @@
     "no-use-before-declare": true,
 
     "eofline": true,
+    "indent": [true, "spaces", 2],
     "linebreak-style": [true, "LF"],
     "max-file-line-count": [false, 300],
     "max-line-length": [true, 100],
@@ -122,8 +119,11 @@
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "quotemark": [true, "single", "avoid-escape"],
     "semicolon": [true, "always"],
+    "space-before-function-paren": [true, "never"],
     "variable-name": [true, "ban-keywords", "check-format", "allow-pascal-case"],
 
+    "arrow-return-shorthand": true,
+    "no-duplicate-super": true,
     "no-var-keyword": true,
     "object-literal-shorthand": true,
     "prefer-const": true
