@@ -48,13 +48,6 @@
       "check-separator",
       "check-type"
     ],
-    "one-line": [
-      true,
-      "check-open-brace",
-      "check-catch",
-      "check-else",
-      "check-whitespace"
-    ],
     "class-name": true,
     "no-inferrable-types": [true, "ignore-params"],
     "no-non-null-assertion": true,
@@ -116,6 +109,12 @@
     "no-consecutive-blank-lines": [true, 2],
     "no-trailing-whitespace": true,
     "object-literal-key-quotes": [true, "consistent-as-needed"],
+    "one-line": [true,
+      "check-open-brace",
+      "check-catch",
+      "check-else",
+      "check-whitespace"
+    ],
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "quotemark": [true, "single", "avoid-escape"],
     "semicolon": [true, "always"],
