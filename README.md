@@ -98,17 +98,22 @@ These rules relate to style guidelines, and are therefore quite subjective
 | Recommended | Rule | Description |
 | :---:       | :--- | :---        |
 |✓|[ban-types](https://palantir.github.io/tslint/rules/ban-types/)|Bans specific types from being used. Does not ban the corresponding runtime objects from being used.|
+|✓|[callable-types](https://palantir.github.io/tslint/rules/callable-types/)|An interface or literal type with just a call signature can be written as a function type.|
 |✓|[class-name](https://palantir.github.io/tslint/rules/class-name/)|Enforces PascalCased class and interface names.|
+|✓|[comment-format](https://palantir.github.io/tslint/rules/comment-format/)|Enforces formatting rules for single-line comments.|
 |✓|[eofline](https://palantir.github.io/tslint/rules/eofline/)|Ensures the file ends with a newline.|
 |✓|[indent](https://palantir.github.io/tslint/rules/indent/)|Enforces indentation with tabs or spaces.|
+|✓|[interface-over-type-literal](https://palantir.github.io/tslint/rules/interface-over-type-literal/)|Prefer an interface declaration over a type literal (`type T = { ... }`).|
 |✓|[linebreak-style](https://palantir.github.io/tslint/rules/linebreak-style/)|Enforces a consistent linebreak style.|
 |✓|[max-classes-per-file](https://palantir.github.io/tslint/rules/max-classes-per-file/)|A file may not contain more than the specified number of classes.|
 |✓|[max-file-line-count](https://palantir.github.io/tslint/rules/max-file-line-count/)|Requires files to remain under a certain number of lines.|
 |✓|[max-line-length](https://palantir.github.io/tslint/rules/max-line-length/)|Requires lines to be under a certain max length.|
+|✓|[member-access](https://palantir.github.io/tslint/rules/member-access/)|Requires explicit visibility declarations for class members.|
 |✓|[new-parens](https://palantir.github.io/tslint/rules/new-parens/)|Requires parentheses when invoking a constructor via the `new` keyword.|
 |✓|[no-bitwise](https://palantir.github.io/tslint/rules/no-bitwise/)|Disallows bitwise operators.|
 |✓|[no-consecutive-blank-lines](https://palantir.github.io/tslint/rules/no-consecutive-blank-lines/)|Disallows one or more blank lines in a row.|
 |✓|[no-empty-interface](https://palantir.github.io/tslint/rules/no-empty-interface/)|Forbids empty interfaces.|
+|✓|[no-string-literal](https://palantir.github.io/tslint/rules/no-string-literal/)|Forbids unnecessary string literal property access. Allows `obj["prop-erty"]` (can't be a regular property access). `Disallows obj["property"]` (should be `obj.property`).|
 |✓|[no-trailing-whitespace](https://palantir.github.io/tslint/rules/no-trailing-whitespace/)|Disallows trailing whitespace at the end of a line.|
 |✓|[no-unnecessary-initializer](https://palantir.github.io/tslint/rules/no-unnecessary-initializer/)|Forbids a `var`/`let` statement or destructuring initializer to be initialized to `undefined`.|
 |✓|[object-literal-key-quotes](https://palantir.github.io/tslint/rules/object-literal-key-quotes/)|Enforces consistent object literal property quote style.|
@@ -118,6 +123,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[quotemark](https://palantir.github.io/tslint/rules/quotemark/)|Requires single or double quotes for string literals.|
 |✓|[semicolon](https://palantir.github.io/tslint/rules/semicolon/)|Enforces consistent semicolon usage at the end of every statement.|
 |✓|[space-before-function-paren](https://palantir.github.io/tslint/rules/space-before-function-paren/)|Require or disallow a space before function parenthesis.|
+|✓|[unified-signatures](https://palantir.github.io/tslint/rules/unified-signatures/)|Warns for any two overloads that could be unified into one by using a union or an optional/rest parameter.|
 |✓|[variable-name](https://palantir.github.io/tslint/rules/variable-name/)|Checks variable names for various errors.|
 
 ## ECMAScript 6
