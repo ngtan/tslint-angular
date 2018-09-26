@@ -102,6 +102,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[class-name](https://palantir.github.io/tslint/rules/class-name/)|Enforces PascalCased class and interface names.|
 |✓|[comment-format](https://palantir.github.io/tslint/rules/comment-format/)|Enforces formatting rules for single-line comments.|
 |✓|[eofline](https://palantir.github.io/tslint/rules/eofline/)|Ensures the file ends with a newline.|
+|✓|[import-spacing](https://palantir.github.io/tslint/rules/import-spacing/)|Ensures proper spacing between import statement keywords|
 |✓|[indent](https://palantir.github.io/tslint/rules/indent/)|Enforces indentation with tabs or spaces.|
 |✓|[interface-over-type-literal](https://palantir.github.io/tslint/rules/interface-over-type-literal/)|Prefer an interface declaration over a type literal (`type T = { ... }`).|
 |✓|[linebreak-style](https://palantir.github.io/tslint/rules/linebreak-style/)|Enforces a consistent linebreak style.|
@@ -109,6 +110,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[max-file-line-count](https://palantir.github.io/tslint/rules/max-file-line-count/)|Requires files to remain under a certain number of lines.|
 |✓|[max-line-length](https://palantir.github.io/tslint/rules/max-line-length/)|Requires lines to be under a certain max length.|
 |✓|[member-access](https://palantir.github.io/tslint/rules/member-access/)|Requires explicit visibility declarations for class members.|
+|✓|[member-ordering](https://palantir.github.io/tslint/rules/member-ordering/)|Enforces member ordering.|
 |✓|[new-parens](https://palantir.github.io/tslint/rules/new-parens/)|Requires parentheses when invoking a constructor via the `new` keyword.|
 |✓|[no-bitwise](https://palantir.github.io/tslint/rules/no-bitwise/)|Disallows bitwise operators.|
 |✓|[no-consecutive-blank-lines](https://palantir.github.io/tslint/rules/no-consecutive-blank-lines/)|Disallows one or more blank lines in a row.|
@@ -125,6 +127,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[space-before-function-paren](https://palantir.github.io/tslint/rules/space-before-function-paren/)|Require or disallow a space before function parenthesis.|
 |✓|[unified-signatures](https://palantir.github.io/tslint/rules/unified-signatures/)|Warns for any two overloads that could be unified into one by using a union or an optional/rest parameter.|
 |✓|[variable-name](https://palantir.github.io/tslint/rules/variable-name/)|Checks variable names for various errors.|
+|✓|[whitespace](https://palantir.github.io/tslint/rules/whitespace/)|Enforces whitespace style conventions.|
 
 ## ECMAScript 6
 These rules relate to ES6, also known as ES2015
