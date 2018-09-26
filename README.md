@@ -114,7 +114,9 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[new-parens](https://palantir.github.io/tslint/rules/new-parens/)|Requires parentheses when invoking a constructor via the `new` keyword.|
 |✓|[no-bitwise](https://palantir.github.io/tslint/rules/no-bitwise/)|Disallows bitwise operators.|
 |✓|[no-consecutive-blank-lines](https://palantir.github.io/tslint/rules/no-consecutive-blank-lines/)|Disallows one or more blank lines in a row.|
+||[no-default-export](https://palantir.github.io/tslint/rules/no-default-export/)|Disallows default exports in ES6-style modules.Use named exports instead.|
 |✓|[no-empty-interface](https://palantir.github.io/tslint/rules/no-empty-interface/)|Forbids empty interfaces.|
+|✓|[no-reference](https://palantir.github.io/tslint/rules/no-reference/)|Disallows `/// <reference path=>` imports (use ES6-style imports instead).|
 |✓|[no-string-literal](https://palantir.github.io/tslint/rules/no-string-literal/)|Forbids unnecessary string literal property access. Allows `obj["prop-erty"]` (can't be a regular property access). `Disallows obj["property"]` (should be `obj.property`).|
 |✓|[no-trailing-whitespace](https://palantir.github.io/tslint/rules/no-trailing-whitespace/)|Disallows trailing whitespace at the end of a line.|
 |✓|[no-unnecessary-initializer](https://palantir.github.io/tslint/rules/no-unnecessary-initializer/)|Forbids a `var`/`let` statement or destructuring initializer to be initialized to `undefined`.|
@@ -136,6 +138,7 @@ These rules relate to ES6, also known as ES2015
 | :---:       | :--- | :---        |
 |✓|[arrow-return-shorthand](https://palantir.github.io/tslint/rules/arrow-return-shorthand/)|Suggests to convert `() => { return x; }` to `() => x`.|
 |✓|[no-duplicate-super](https://palantir.github.io/tslint/rules/no-duplicate-super/)|Warns if `super()` appears twice in a constructor.|
+||[no-require-imports](https://palantir.github.io/tslint/rules/no-require-imports/)|Disallows invocation of `require()`.|
 |✓|[no-var-keyword](https://palantir.github.io/tslint/rules/no-var-keyword/)|Disallows usage of the `var` keyword. Use `let` or `const` instead.|
 |✓|[no-var-requires](https://palantir.github.io/tslint/rules/no-var-requires/)|Disallows the use of require statements except in import statements.|
 |✓|[object-literal-shorthand](https://palantir.github.io/tslint/rules/object-literal-shorthand)|Enforces/disallows use of ES6 object literal shorthand.|
