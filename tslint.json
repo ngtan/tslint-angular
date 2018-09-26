@@ -3,28 +3,6 @@
     "node_modules/codelyzer"
   ],
   "rules": {
-    "member-ordering": [
-      true,
-      {
-        "order": [
-          "static-field",
-          "instance-field",
-          "static-method",
-          "instance-method"
-        ]
-      }
-    ],
-    "no-unnecessary-initializer": true,
-    "typedef-whitespace": [
-      true,
-      {
-        "call-signature": "nospace",
-        "index-signature": "nospace",
-        "parameter": "nospace",
-        "property-declaration": "nospace",
-        "variable-declaration": "nospace"
-      }
-    ],
     "banana-in-box": true,
     "use-input-property-decorator": true,
     "use-output-property-decorator": true,
@@ -37,6 +15,32 @@
     "use-pipe-transform-interface": true,
     "component-class-suffix": [true, "Component"],
     "directive-class-suffix": [true, "Directive"],
+    "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
+    "no-output-on-prefix": true,
+    "directive-selector": [true, ["attribute"], [], "camelCase"],
+    "component-selector": [true, ["element"], [], "kebab-case"],
+
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "instance-field",
+          "static-method",
+          "instance-method"
+        ]
+      }
+    ],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "nospace",
+        "index-signature": "nospace",
+        "parameter": "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
     "import-spacing": true,
     "whitespace": [
       true,
@@ -50,10 +54,6 @@
     "no-non-null-assertion": true,
     "no-string-literal": false,
     "object-literal-sort-keys": false,
-    "angular-whitespace": [true, "check-interpolation", "check-semicolon"],
-    "no-output-on-prefix": true,
-    "directive-selector": [true, ["attribute"], [], "camelCase"],
-    "component-selector": [true, ["element"], [], "kebab-case"],
     "comment-format": [true, "check-space"],
     "import-blacklist": [true, "rxjs/Rx"],
     "interface-over-type-literal": true,
@@ -116,6 +116,7 @@
     "no-consecutive-blank-lines": [true, 2],
     "no-empty-interface": true,
     "no-trailing-whitespace": true,
+    "no-unnecessary-initializer": true,
     "object-literal-key-quotes": [true, "consistent-as-needed"],
     "one-line": [true,
       "check-open-brace",
