@@ -49,7 +49,7 @@
     "ban": [true, ["alert", "confirm", "prompt"]],
     "binary-expression-operand-order": true,
     "curly": true,
-    "cyclomatic-complexity": false,
+    "cyclomatic-complexity": [true, 15],
     "forin": true,
     "label-position": true,
     "no-arg": true,
