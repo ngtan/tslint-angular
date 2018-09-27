@@ -70,6 +70,7 @@
     "no-unused-variable": true,
     "no-use-before-declare": true,
 
+    "adjacent-overload-signatures": true,
     "ban-types": [true,
       ["Object", "Avoid using the `Object` type. Did you mean `object`?"],
       ["Function", "Avoid using the `Function` type. Prefer a specific function type, like `() => void`."],
@@ -113,9 +114,12 @@
       }
     ],
     "new-parens": true,
+    "newline-before-return": true,
     "no-bitwise": true,
     "no-consecutive-blank-lines": [true, 2],
     "no-default-export": true,
+    "no-duplicate-imports": true,
+    "no-dynamic-delete": true,
     "no-empty-interface": true,
     "no-reference": true,
     "no-string-literal": true,
@@ -157,6 +161,7 @@
     "no-var-keyword": true,
     "no-var-requires": true,
     "object-literal-shorthand": true,
-    "prefer-const": true
+    "prefer-const": true,
+    "prefer-object-spread": true
   }
 }

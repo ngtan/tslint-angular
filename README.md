@@ -97,6 +97,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 
 | Recommended | Rule | Description |
 | :---:       | :--- | :---        |
+|✓|[adjacent-overload-signatures](https://palantir.github.io/tslint/rules/adjacent-overload-signatures/)|Enforces function overloads to be consecutive.|
 |✓|[ban-types](https://palantir.github.io/tslint/rules/ban-types/)|Bans specific types from being used. Does not ban the corresponding runtime objects from being used.|
 |✓|[callable-types](https://palantir.github.io/tslint/rules/callable-types/)|An interface or literal type with just a call signature can be written as a function type.|
 |✓|[class-name](https://palantir.github.io/tslint/rules/class-name/)|Enforces PascalCased class and interface names.|
@@ -112,9 +113,12 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[member-access](https://palantir.github.io/tslint/rules/member-access/)|Requires explicit visibility declarations for class members.|
 |✓|[member-ordering](https://palantir.github.io/tslint/rules/member-ordering/)|Enforces member ordering.|
 |✓|[new-parens](https://palantir.github.io/tslint/rules/new-parens/)|Requires parentheses when invoking a constructor via the `new` keyword.|
+|✓|[newline-before-return](https://palantir.github.io/tslint/rules/newline-before-return/)|Enforces blank line before return when not the only line in the block.|
 |✓|[no-bitwise](https://palantir.github.io/tslint/rules/no-bitwise/)|Disallows bitwise operators.|
 |✓|[no-consecutive-blank-lines](https://palantir.github.io/tslint/rules/no-consecutive-blank-lines/)|Disallows one or more blank lines in a row.|
 ||[no-default-export](https://palantir.github.io/tslint/rules/no-default-export/)|Disallows default exports in ES6-style modules.Use named exports instead.|
+||[no-duplicate-imports](https://palantir.github.io/tslint/rules/no-duplicate-imports/)|Disallows multiple import statements from the same module.|
+||[no-dynamic-delete](https://palantir.github.io/tslint/rules/no-dynamic-delete/)|Bans usage of the delete operator with computed key expressions.|
 |✓|[no-empty-interface](https://palantir.github.io/tslint/rules/no-empty-interface/)|Forbids empty interfaces.|
 |✓|[no-reference](https://palantir.github.io/tslint/rules/no-reference/)|Disallows `/// <reference path=>` imports (use ES6-style imports instead).|
 |✓|[no-string-literal](https://palantir.github.io/tslint/rules/no-string-literal/)|Forbids unnecessary string literal property access. Allows `obj["prop-erty"]` (can't be a regular property access). `Disallows obj["property"]` (should be `obj.property`).|
@@ -144,6 +148,7 @@ These rules relate to ES6, also known as ES2015
 |✓|[no-var-requires](https://palantir.github.io/tslint/rules/no-var-requires/)|Disallows the use of require statements except in import statements.|
 |✓|[object-literal-shorthand](https://palantir.github.io/tslint/rules/object-literal-shorthand)|Enforces/disallows use of ES6 object literal shorthand.|
 |✓|[prefer-const](https://palantir.github.io/tslint/rules/prefer-const/)|Requires that variable declarations use `const` instead of `let` and `var` if possible. If a variable is only assigned to once when it is declared, it should be declared using `const`.|
+||[prefer-object-spread](https://palantir.github.io/tslint/rules/prefer-object-spread/)|Enforces the use of the ES2015 object spread operator over `Object.assign()` where appropriate.|
 
 ## License
 This project is licensed under the [MIT License](https://github.com/ngtan/tslint-angular/blob/master/LICENSE)
