@@ -126,6 +126,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[no-trailing-whitespace](https://palantir.github.io/tslint/rules/no-trailing-whitespace/)|Disallows trailing whitespace at the end of a line.|
 |✓|[no-unnecessary-initializer](https://palantir.github.io/tslint/rules/no-unnecessary-initializer/)|Forbids a `var`/`let` statement or destructuring initializer to be initialized to `undefined`.|
 |✓|[object-literal-key-quotes](https://palantir.github.io/tslint/rules/object-literal-key-quotes/)|Enforces consistent object literal property quote style.|
+|✓|[object-literal-sort-keys](https://palantir.github.io/tslint/rules/object-literal-sort-keys/)|Checks ordering of keys in object literals.|
 |✓|[one-line](https://palantir.github.io/tslint/rules/one-line/)|Requires the specified tokens to be on the same line as the expression preceding them.|
 |✓|[ordered-imports](https://palantir.github.io/tslint/rules/ordered-imports/)|Requires that import statements be alphabetized and grouped.|
 |✓|[no-misused-new](https://palantir.github.io/tslint/rules/no-misused-new/)|Warns on apparent attempts to define constructors for interfaces or `new` for classes.|
@@ -134,6 +135,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[quotemark](https://palantir.github.io/tslint/rules/quotemark/)|Requires single or double quotes for string literals.|
 |✓|[semicolon](https://palantir.github.io/tslint/rules/semicolon/)|Enforces consistent semicolon usage at the end of every statement.|
 |✓|[space-before-function-paren](https://palantir.github.io/tslint/rules/space-before-function-paren/)|Require or disallow a space before function parenthesis.|
+|✓|[typedef-whitespace](https://palantir.github.io/tslint/rules/typedef-whitespace/)|Requires or disallows whitespace for type definitions.|
 |✓|[unified-signatures](https://palantir.github.io/tslint/rules/unified-signatures/)|Warns for any two overloads that could be unified into one by using a union or an optional/rest parameter.|
 |✓|[variable-name](https://palantir.github.io/tslint/rules/variable-name/)|Checks variable names for various errors.|
 |✓|[whitespace](https://palantir.github.io/tslint/rules/whitespace/)|Enforces whitespace style conventions.|
