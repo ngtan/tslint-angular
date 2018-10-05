@@ -13,6 +13,7 @@
   1. [Variables](#variables)
   1. [Stylistic](#stylistic)
   1. [ECMAScript 6](#ecmascript-6)
+  1. [Codelyzer](#codelyzer)
 
 ## References
   1. Use `const` instead of `let` and `var` if a variable is only assigned to once when it is declared.
@@ -150,6 +151,44 @@ These rules relate to ES6, also known as ES2015
 |✓|[object-literal-shorthand](https://palantir.github.io/tslint/rules/object-literal-shorthand)|Enforces/disallows use of ES6 object literal shorthand.|
 |✓|[prefer-const](https://palantir.github.io/tslint/rules/prefer-const/)|Requires that variable declarations use `const` instead of `let` and `var` if possible. If a variable is only assigned to once when it is declared, it should be declared using `const`.|
 ||[prefer-object-spread](https://palantir.github.io/tslint/rules/prefer-object-spread/)|Enforces the use of the ES2015 object spread operator over `Object.assign()` where appropriate.|
+
+## Codelyzer
+Lint rules encode logic for syntactic & semantic checks of TypeScript, HTML, CSS and Angular expressions source code.
+
+### Functionality
+These rules catch common errors in JS programming or otherwise confusing constructs that are prone to producing bugs:
+
+| Recommended | Rule | Description |
+| :---:       | :--- | :---        |
+||[banana-in-box](http://codelyzer.com/rules/banana-in-box/)|Ensure that the two-way data binding syntax is correct.|
+
+### Maintainability
+These rules make code maintenance easier:
+
+| Recommended | Rule | Description |
+| :---:       | :--- | :---        |
+||[no-attribute-parameter-decorator](http://codelyzer.com/rules/no-attribute-parameter-decorator/)|Disallow usage of @Attribute decorator.|
+||[no-forward-ref](http://codelyzer.com/rules/no-forward-ref/)|Disallows usage of forward references for DI.|
+||[no-input-rename](http://codelyzer.com/rules/no-input-rename/)|Disallows renaming directive inputs by providing a string to the decorator.|
+||[no-output-on-prefix](http://codelyzer.com/rules/no-output-on-prefix/)|Name events without the prefix on.|
+||[no-output-rename](http://codelyzer.com/rules/no-output-rename/)|Disallows renaming directive outputs by providing a string to the decorator.|
+||[use-life-cycle-interface](http://codelyzer.com/rules/use-life-cycle-interface/)|Ensure that components implement life cycle interfaces if they use them.|
+||[use-pipe-transform-interface](http://codelyzer.com/rules/use-pipe-transform-interface/)|Ensure that pipes implement PipeTransform interface.|
+
+### Style
+These rules enforce consistent style across your codebase:
+
+| Recommended | Rule | Description |
+| :---:       | :--- | :---        |
+||[angular-whitespace](http://codelyzer.com/rules/angular-whitespace/)|Ensures the proper formatting of Angular expressions.|
+||[component-class-suffix](http://codelyzer.com/rules/component-class-suffix/)|Classes decorated with @Component must have suffix “Component” (or custom) in their name.|
+||[component-selector](http://codelyzer.com/rules/component-selector/)|Component selectors should follow given naming rules.|
+||[directive-class-suffix](http://codelyzer.com/rules/directive-class-suffix/)|Classes decorated with @Directive must have suffix “Directive” (or custom) in their name.|
+||[directive-selector](http://codelyzer.com/rules/directive-selector/)|Directive selectors should follow given naming rules.|
+||[use-host-property-decorator](http://codelyzer.com/rules/use-host-property-decorator/)|Use @HostProperty decorator rather than the `host` property of `@Component` and `@Directive` metadata.|
+||[use-input-property-decorator](http://codelyzer.com/rules/use-input-property-decorator/)|Use `@Input` decorator rather than the `inputs` property of `@Component` and `@Directive` metadata.|
+||[use-output-property-decorator](http://codelyzer.com/rules/use-output-property-decorator/)|Use `@Output` decorator rather than the `outputs` property of `@Component` and `@Directive` metadata.|
+
 
 ## License
 This project is licensed under the [MIT License](https://github.com/ngtan/tslint-angular/blob/master/LICENSE)
