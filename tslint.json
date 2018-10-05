@@ -140,6 +140,7 @@
       }
     ],
     "no-misused-new": true,
+    "no-return-await": true,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "quotemark": [true, "single", "avoid-escape"],
     "semicolon": [true, "always"],
