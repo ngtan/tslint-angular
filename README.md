@@ -131,6 +131,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[ordered-imports](https://palantir.github.io/tslint/rules/ordered-imports/)|Requires that import statements be alphabetized and grouped.|
 |✓|[no-inferrable-types](https://palantir.github.io/tslint/rules/no-inferrable-types/)|Disallows explicit type declarations for variables or parameters initialized to a number, string, or boolean.|
 |✓|[no-misused-new](https://palantir.github.io/tslint/rules/no-misused-new/)|Warns on apparent attempts to define constructors for interfaces or `new` for classes.|
+|✓|[no-non-null-assertion](https://palantir.github.io/tslint/rules/no-non-null-assertion/)|Disallows non-null assertions using the ! postfix operator.|
 |✓|[no-return-await](https://palantir.github.io/tslint/rules/no-return-await/)|Disallows unnecessary `return await`.|
 |✓|[one-variable-per-declaration](https://palantir.github.io/tslint/rules/one-variable-per-declaration/)|Disallows multiple variable definitions in the same declaration statement.|
 |✓|[quotemark](https://palantir.github.io/tslint/rules/quotemark/)|Requires single or double quotes for string literals.|

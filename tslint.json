@@ -3,7 +3,6 @@
     "node_modules/codelyzer"
   ],
   "rules": {
-    "no-non-null-assertion": true,
     "import-blacklist": [true, "rxjs/Rx"],
 
     "no-conditional-assignment": true,
@@ -113,6 +112,7 @@
     ],
     "no-inferrable-types": [true, "ignore-params"],
     "no-misused-new": true,
+    "no-non-null-assertion": true,
     "no-return-await": true,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "quotemark": [true, "single", "avoid-escape"],
