@@ -129,6 +129,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[object-literal-sort-keys](https://palantir.github.io/tslint/rules/object-literal-sort-keys/)|Checks ordering of keys in object literals.|
 |✓|[one-line](https://palantir.github.io/tslint/rules/one-line/)|Requires the specified tokens to be on the same line as the expression preceding them.|
 |✓|[ordered-imports](https://palantir.github.io/tslint/rules/ordered-imports/)|Requires that import statements be alphabetized and grouped.|
+|✓|[no-inferrable-types](https://palantir.github.io/tslint/rules/no-inferrable-types/)|Disallows explicit type declarations for variables or parameters initialized to a number, string, or boolean.|
 |✓|[no-misused-new](https://palantir.github.io/tslint/rules/no-misused-new/)|Warns on apparent attempts to define constructors for interfaces or `new` for classes.|
 |✓|[no-return-await](https://palantir.github.io/tslint/rules/no-return-await/)|Disallows unnecessary `return await`.|
 |✓|[one-variable-per-declaration](https://palantir.github.io/tslint/rules/one-variable-per-declaration/)|Disallows multiple variable definitions in the same declaration statement.|

@@ -4,7 +4,6 @@
   ],
   "rules": {
     "no-non-null-assertion": true,
-    "no-inferrable-types": [true, "ignore-params"],
     "import-blacklist": [true, "rxjs/Rx"],
 
     "no-conditional-assignment": true,
@@ -112,6 +111,7 @@
         "named-imports-order": "case-insensitive"
       }
     ],
+    "no-inferrable-types": [true, "ignore-params"],
     "no-misused-new": true,
     "no-return-await": true,
     "one-variable-per-declaration": [true, "ignore-for-loop"],
