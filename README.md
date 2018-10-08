@@ -104,6 +104,7 @@ These rules relate to style guidelines, and are therefore quite subjective
 |✓|[class-name](https://palantir.github.io/tslint/rules/class-name/)|Enforces PascalCased class and interface names.|
 |✓|[comment-format](https://palantir.github.io/tslint/rules/comment-format/)|Enforces formatting rules for single-line comments.|
 |✓|[eofline](https://palantir.github.io/tslint/rules/eofline/)|Ensures the file ends with a newline.|
+|✓|[import-blacklist](https://palantir.github.io/tslint/rules/import-blacklist/)|Disallows importing the specified modules directly via import and require. Instead only sub modules may be imported from that module.|
 |✓|[import-spacing](https://palantir.github.io/tslint/rules/import-spacing/)|Ensures proper spacing between import statement keywords|
 |✓|[indent](https://palantir.github.io/tslint/rules/indent/)|Enforces indentation with tabs or spaces.|
 |✓|[interface-over-type-literal](https://palantir.github.io/tslint/rules/interface-over-type-literal/)|Prefer an interface declaration over a type literal (`type T = { ... }`).|
